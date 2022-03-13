@@ -3,9 +3,9 @@ applications:
     routes:
       - route: jominott.mybluemix.net
     memory: 128M
-    buildpacks: python_buildpack
+    buildpacks: "python_buildpack"
   - name: thedealership-nginx
     routes:
       - route: jominott.mybluemix.net/static
     memory: 128M
-    buildpacks: staticfile_buildpack
+    buildpacks: "staticfile_buildpack"
